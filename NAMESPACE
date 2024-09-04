@@ -1,0 +1,24 @@
+exportPattern("^[[:alpha:]]+")
+
+
+# MASS
+importFrom("MASS", "mvrnorm")
+
+# fda
+importFrom("fda", "create.fourier.basis", "create.bspline.basis", "eval.basis")
+
+# graphics
+importFrom("graphics", "abline", "plot", "matplot", "par", "hist", "points", "polygon", "segments", "image",
+           "axis", "legend", "contour", "mtext", "title", "matlines")
+
+# stats
+importFrom("stats", "var")
+
+
+
+# Export
+export("rmfdpo", "rPar", "plot.pomfd")
+
+
+#S3method
+S3method(plot, pomfd)
