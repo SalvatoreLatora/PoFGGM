@@ -1,4 +1,4 @@
-# R-packge: `ReconstPoFD`
+# R-packge: `PoFGGM`
 This package implement procedure to train a Functional Gaussian Graphical Models for partially observed multivariate functional data.
 
 ## Installing the R package
