@@ -5,4 +5,4 @@ This package implement procedure to train a Functional Gaussian Graphical Models
 
 `library(devtools)`
 
-`install_github("SalvatoreLatora/PoFGGM/PoFGGM")`
+`install_github("SalvatoreLatora/PoFGGM")`
