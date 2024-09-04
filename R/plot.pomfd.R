@@ -10,5 +10,7 @@ plot.pomfd <- function(x, ...){
   for(i in seq_len(p)){
     matplot(x$X[, , i], type = "l", col = 'grey50', ...)
     matlines(x$Xpo[, , i], col = "red")
+
+
   }
 }
